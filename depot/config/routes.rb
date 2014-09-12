@@ -1,4 +1,4 @@
-Depot::Application.routes.draw do
+Rails.application.routes.draw do
   resources :products
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -41,7 +41,7 @@ Depot::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
